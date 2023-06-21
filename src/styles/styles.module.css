@@ -17,3 +17,154 @@
 .navLi:not(:last-child) {
 	margin-right: 48px;
 }
+
+.products__image {
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+}
+
+.products__li {
+	background: linear-gradient(180deg, #f8f8f8 0%, rgba(248, 248, 248, 0) 100%);
+	margin-bottom: 55px;
+}
+
+.products__ul {
+	margin-right: -40px;
+}
+
+.products__li:not(:last-child) {
+	margin-right: 40px;
+}
+
+.services {
+	background-image: url(../images/servises-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.services__li:not(:last-child) {
+	margin-right: 56px;
+}
+
+@media screen and (max-width: 1356px) {
+	.products__li {
+		width: 350px;
+		height: 439px;
+		padding: 17px 30px 32px;
+	}
+}
+
+@media screen and (max-width: 1356px) {
+	.services__ul {
+		justify-content: center;
+	}
+
+	.services__li {
+		width: 450px;
+		border-radius: 60px;
+	}
+
+	.services__li:not(:last-child) {
+		margin-bottom: 56px;
+	}
+
+	.services__image {
+		width: 450px;
+		object-fit: cover;
+	}
+}
+
+@media screen and (max-width: 1165px) {
+	.products__ul {
+		justify-content: center;
+	}
+
+	.products__li {
+		width: 430px;
+		height: 439px;
+		padding: 17px 40px 32px;
+	}
+}
+
+@media screen and (max-width: 1124px) {
+	.navLi:not(:last-child) {
+		margin-right: 28px;
+	}
+
+	.navLi Link {
+		font-size: 16px;
+	}
+
+	.location {
+		margin-right: 28px;
+	}
+
+	.tell {
+		margin-right: 28px;
+	}
+
+	.logo {
+		margin-left: 28px;
+		margin-right: 56px;
+	}
+
+	.search {
+		margin-right: 28px;
+	}
+
+	.image {
+		object-fit: cover;
+		width: 540px;
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 1032px) {
+	.services__ul:not(:last-child) {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.headerWrapper {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 976px) {
+	.services__li:not(:last-child) {
+		margin-right: 36px;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	.products {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.products__li {
+		width: 600px;
+		height: 439px;
+		padding: 17px 60px 32px;
+	}
+
+	.products__ul {
+		margin-right: 0;
+	}
+	.products__li:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.services {
+		padding-top: 48px;
+		padding-bottom: 56px;
+	}
+
+	.services__info {
+		padding: 0 48px 24px;
+	}
+}

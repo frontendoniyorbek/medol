@@ -47,4 +47,38 @@ body {
 	font-style: normal;
 	line-height: 1.67;
 	color: #000;
+	overflow-x: hidden;
+}
+
+.btn {
+	background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+	opacity: 0.9;
+	border-radius: 35px;
+	cursor: pointer;
+	color: #fff;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 21px 74px 21px 71px;
+}
+
+.btn__products {
+	padding: 24px 58px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.btn__products--active {
+	background: #00c9c9;
+}
+
+.btn-services {
+	padding: 15px 84px 12px 82px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
 }
