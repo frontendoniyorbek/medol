@@ -1,5 +1,5 @@
 import styles from '../styles/styles.module.css';
-import { AboutCompany, Footer, Header, News, Partners, Products, Services } from '@/components';
+import { AboutCompany, Footer, Header, Hero, Navbar, News, Partners, Products, Services } from '@/components';
 
 export default function Home() {
 	return (
@@ -7,19 +7,19 @@ export default function Home() {
 			<div>
 				<div className={styles.wrapper}>
 					<div className={styles.container}>
-						{/* <Hero />
-					<Navbar /> */}
+						<Hero />
+						<Navbar />
 						<Header />
 					</div>
 				</div>
-				<div className={styles.container}>
+				{/* <div className={styles.container}>
 					<Products />
 				</div>
 				<Services />
-				{/* <AboutCompany /> */}
+				<AboutCompany />
 				<News />
 				<Partners />
-				<Footer />
+				<Footer /> */}
 			</div>
 		</>
 	);
