@@ -12,14 +12,14 @@ export default function Home() {
 						<Header />
 					</div>
 				</div>
-				{/* <div className={styles.container}>
+				<div className={styles.container}>
 					<Products />
 				</div>
 				<Services />
 				<AboutCompany />
 				<News />
 				<Partners />
-				<Footer /> */}
+				<Footer />
 			</div>
 		</>
 	);
