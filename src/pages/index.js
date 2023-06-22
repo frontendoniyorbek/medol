@@ -4,23 +4,21 @@ import { AboutCompany, Footer, Header, Hero, Navbar, News, Partners, Products, S
 export default function Home() {
 	return (
 		<>
-			<div>
-				<div className={styles.wrapper}>
+			{/* <div className={styles.wrapper}>
 					<div className={styles.container}>
 						<Hero />
 						<Navbar />
 						<Header />
 					</div>
-				</div>
-				<div className={styles.container}>
-					<Products />
-				</div>
-				<Services />
+				</div> */}
+			<div className={styles.container}>
+				<Products />
+			</div>
+			{/* <Services />
 				<AboutCompany />
 				<News />
 				<Partners />
-				<Footer />
-			</div>
+				<Footer /> */}
 		</>
 	);
 }

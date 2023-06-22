@@ -11,25 +11,27 @@ import { AiOutlineRightCircle } from 'react-icons/ai';
 
 const Products = () => {
 	return (
-		<div className={`pt-[50px] pb-[67px] ${products.products}`}>
-			<h2 className='text-[#0D4C93] text-center font-medium text-[40px] leading-[1.2] mb-[62px]'>ПРОДУКЦИЯ</h2>
-			<ul className={`list-none m-0 p-0 flex items-center justify-between flex-wrap ${products.products__ul}`}>
+		<div className={`pt-[50px] pb-[67px] ${products.products} ${products.products__container}`}>
+			<h2 className='text-[#0D4C93] text-center font-medium lg:text-[40px] md:text-4xl text-3xl lg:mb-[62px] md:mb-12 mb-8 leading-[1.2]'>
+				ПРОДУКЦИЯ
+			</h2>
+			<ul className={`list-none first-letter flex items-center justify-center flex-wrap ${products.products__ul}`}>
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={xirurgiya} width={220} height={220} />
-					<h3 className='text-center tracking-tighter-[0.1em] mt-0 mb-7'>Эндоваскулярная хирургия</h3>
+					<h3 className='text-center mt-0 mb-7'>Эндоваскулярная хирургия</h3>
 					<button className=' btn btn__products'>Посмотреть все</button>
 				</li>
 
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={diagnostika} width={220} height={220} />
 					<h3 className='text-center tracking-tighter-[0.1em] mt-8 mb-7'>Лабораторная диагностика</h3>
 					<button className=' btn btn__products'>Посмотреть все</button>
 				</li>
 
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={kar} width={220} height={220} />
 					<h3 className='text-center tracking-tighter-[0.1em] mt-0 mb-7'>
 						Кардиохирургия <br />
@@ -38,21 +40,21 @@ const Products = () => {
 				</li>
 
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={diabet} width={220} height={220} />
 					<h3 className='text-center tracking-tighter-[0.1em] mt-0 mb-7'>ДИАБЕТ</h3>
 					<button className=' btn btn__products'>Посмотреть все</button>
 				</li>
 
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={endourologiya} width={220} height={220} />
 					<h3 className='text-center tracking-tighter-[0.1em] mt-0 mb-7'>ЭНДОУРОЛОГИЯ</h3>
 					<button className=' btn btn__products btn__products--active'>Посмотреть все</button>
 				</li>
 
 				<li
-					className={` w-[413px] h-[439px] flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
+					className={`flex flex-col items-center justify-center opacity-90 pt-[17px] pr-[72px] pb-[42px] pl-[72px] rounded-[35px] ${products.products__li}`}>
 					<Image className={`mb-2 ${products.products__image}`} src={aritmologiya} width={220} height={220} />
 					<h3 className='text-center tracking-tighter-[0.1em] mt-0 mb-7'>АРИТМОЛОГИЯ</h3>
 					<button className=' btn btn__products'>Посмотреть все</button>
