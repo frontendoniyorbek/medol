@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const News = () => {
 	return (
-		<div className='md:pb-[104px] pb-20'>
+		<div className={`md:pb-[104px] pb-20 ${news.container}`}>
 			<h2 className='text-[#0D4C93] font-medium text-[40px] text-center'>НОВОСТИ</h2>
 			<Carousel
 				className='pt-14'

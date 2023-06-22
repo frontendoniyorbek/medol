@@ -20,18 +20,18 @@ export const categoryCarousel = {
 export const responsive = {
 	superLargeDesktop: {
 		breakpoint: { max: 4000, min: 3000 },
-		items: 4,
+		items: 5,
 	},
 	desktop: {
 		breakpoint: { max: 3000, min: 1200 },
-		items: 3,
+		items: 4,
 	},
 	tablet: {
 		breakpoint: { max: 1200, min: 800 },
-		items: 2,
+		items: 3,
 	},
 	mobile: {
 		breakpoint: { max: 800, min: 0 },
-		items: 1,
+		items: 2,
 	},
 };

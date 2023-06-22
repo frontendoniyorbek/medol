@@ -6,3 +6,4 @@ export { default as Services } from './services';
 export { default as AboutCompany } from './about-company';
 export { default as News } from './news';
 export { default as Partners } from './partners';
+export { default as Footer } from './footer';

@@ -94,3 +94,7 @@ body {
 	margin-bottom: -50px;
 	margin-left: 30px;
 }
+
+.btn__footer {
+	padding: 14px 30px;
+}
