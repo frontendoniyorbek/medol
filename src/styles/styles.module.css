@@ -93,12 +93,19 @@
 	background: linear-gradient(180deg, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-.news__li:not(:last-child) {
+/* .news__li:not(:last-child) {
 	margin-right: 60px;
-}
+} */
 
 .news__image {
 	margin-top: -136px;
+}
+
+.partners__list {
+	border-radius: 30px;
+	border: 1px solid #ececec;
+	background: #fff;
+	width: 275px;
 }
 
 @media screen and (max-width: 1430px) {
