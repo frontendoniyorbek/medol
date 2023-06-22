@@ -121,6 +121,12 @@ a:active {
 	opacity: 0.6;
 }
 
+@media screen and (max-width: 1200px) {
+	.btn__products {
+		padding: 18px 32px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.btn {
 		border-radius: 28px;
