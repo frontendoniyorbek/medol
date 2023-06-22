@@ -82,3 +82,15 @@ body {
 	font-size: 20px;
 	line-height: 23px;
 }
+
+.btn-news {
+	display: inline-block;
+	padding: 15px 80px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: Roboto;
+	letter-spacing: 0.8px;
+	margin-bottom: -50px;
+	margin-left: 30px;
+}

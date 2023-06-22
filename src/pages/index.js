@@ -1,5 +1,5 @@
 import styles from '../styles/styles.module.css';
-import { Header, Products, Services } from '@/components';
+import { AboutCompany, Header, News, Products, Services } from '@/components';
 
 export default function Home() {
 	return (
@@ -16,6 +16,8 @@ export default function Home() {
 					<Products />
 				</div>
 				<Services />
+				{/* <AboutCompany /> */}
+				<News />
 			</div>
 		</>
 	);
