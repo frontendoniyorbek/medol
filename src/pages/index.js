@@ -1,5 +1,6 @@
+import { Badge, Button } from 'react-bootstrap';
 import styles from '../styles/styles.module.css';
-import { AboutCompany, Footer, Header, Hero, Navbar, News, Partners, Products, Services } from '@/components';
+import { AboutCompany, Footer, Header, Hero, Navv, News, Partners, Products, Services } from '@/components';
 
 export default function Home() {
 	return (
@@ -7,7 +8,7 @@ export default function Home() {
 			<div className={styles.wrapper}>
 				<div className={`${styles.container}`}>
 					<Hero />
-					<Navbar />
+					<Navv />
 					<Header />
 				</div>
 			</div>

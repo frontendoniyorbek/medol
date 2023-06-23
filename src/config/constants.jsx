@@ -35,3 +35,22 @@ export const responsive = {
 		items: 2,
 	},
 };
+
+export const responsiveTwo = {
+	superLargeDesktop: {
+		breakpoint: { max: 4000, min: 3000 },
+		items: 1,
+	},
+	desktop: {
+		breakpoint: { max: 3000, min: 1200 },
+		items: 1,
+	},
+	tablet: {
+		breakpoint: { max: 1200, min: 800 },
+		items: 1,
+	},
+	mobile: {
+		breakpoint: { max: 800, min: 0 },
+		items: 1,
+	},
+};

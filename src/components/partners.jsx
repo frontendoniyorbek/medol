@@ -10,6 +10,7 @@ import partners1 from '../images/partners1.png';
 import partners3 from '../images/partners3.png';
 import partners6 from '../images/partners6.png';
 import Image from 'next/image';
+import 'react-multi-carousel/lib/styles.css';
 
 const Partners = () => {
 	return (
@@ -21,9 +22,12 @@ const Partners = () => {
 					className='md:pt-14 sm:mt-11 mt-9'
 					responsive={responsive}
 					autoPlay={true}
-					autoPlaySpeed={1500}
-					removeArrowOnDeviceType={['tablet', 'mobile']}
-					infinite>
+					swipeable={true}
+					draggable={true}
+					showDots={true}
+					infinite={true}
+					partialVisible={false}
+					dotListClass='custom-dot-list-style'>
 					<div className={`${partners.partners__list} pt-2 md:pr-14 sm:pr-10 sm:pl-10 pl-8 pr-8 pb-2 md:pl-14`}>
 						<Image src={partners1} className='w-[172px] h-[126px]' />
 					</div>
