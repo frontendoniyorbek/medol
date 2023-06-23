@@ -39,6 +39,16 @@
 	padding-right: 20px;
 }
 
+.progress__bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 10px;
+	background: red;
+	transform-origin: 0%;
+}
+
 .services__container {
 	max-width: 1440px;
 	width: 100%;
@@ -74,6 +84,7 @@
 }
 
 .services__li {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 	width: 30%;
 }
 
@@ -406,8 +417,12 @@
 	}
 
 	.sidebar {
+		box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 		display: block;
-		animation: slide-sidebar;
+		animation-name: slide-sidebar;
+		animation-duration: 2.5s, 5s, 1s;
+		animation-iteration-count: 1, 1, 5;
+		transition: all 0.5 ease;
 	}
 
 	@keyframes slide-sidebar {
