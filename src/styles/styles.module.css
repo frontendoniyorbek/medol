@@ -30,6 +30,15 @@
 	padding-right: 20px;
 }
 
+.news__container {
+	max-width: 1440px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .services__container {
 	max-width: 1440px;
 	width: 100%;
@@ -191,6 +200,52 @@
 	}
 }
 
+@media screen and (max-width: 1300px) {
+	.footer__container {
+		flex-direction: column;
+	}
+
+	.footer__info {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+
+	.footer__location {
+		margin-right: 10px;
+	}
+
+	.footer__title {
+		margin-right: 10px;
+	}
+
+	.footer__email {
+		justify-content: flex-end;
+		margin-bottom: 0;
+	}
+
+	.footer__locationTop {
+		margin-bottom: 0;
+	}
+
+	.footer__emalBootom {
+		margin-right: 10px;
+	}
+
+	.footer__logo {
+		justify-content: space-between;
+	}
+
+	.footer__text {
+		width: 100%;
+	}
+
+	.footer__right {
+		justify-content: space-between;
+	}
+}
+
 @media screen and (max-width: 1169px) {
 	.products__li {
 		width: 45%;
@@ -207,26 +262,6 @@
 
 	.products__li {
 		padding: 17px 40px 32px;
-	}
-}
-
-@media screen and (max-width: 1156px) {
-	.footer__social {
-		flex-direction: column;
-	}
-
-	.footer__location {
-		margin-bottom: 20px;
-	}
-
-	.footer__button {
-		margin-right: 60px;
-		flex-direction: column;
-		margin-left: 0;
-	}
-
-	.footer__email {
-		margin-bottom: 20px;
 	}
 }
 
@@ -413,10 +448,6 @@
 }
 
 @media screen and (max-width: 850px) {
-	.footer__container {
-		flex-direction: column;
-	}
-
 	.footer__social {
 		margin-left: 45px;
 	}
@@ -444,17 +475,8 @@
 
 @media screen and (max-width: 800px) {
 	.news__li {
-		width: 90%;
+		width: 98%;
 		text-align: center;
-	}
-
-	.news__li:not(:last-child) {
-		margin-right: 0px;
-	}
-
-	.news__li {
-		margin-right: 0;
-		margin-left: 0;
 	}
 
 	.news__image {
@@ -471,6 +493,12 @@
 
 	.aboutCompany__bg {
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.footer__logoText {
+		flex-direction: column;
 	}
 }
 
@@ -502,5 +530,9 @@
 	.image {
 		width: 320px;
 		height: 280px;
+	}
+
+	.footer__right {
+		flex-direction: column;
 	}
 }
