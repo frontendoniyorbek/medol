@@ -20,16 +20,7 @@ const Partners = () => {
 					ПАРТНЕРЫ
 				</h2>
 
-				<Carousel
-					className='md:pt-14 sm:mt-11 mt-9'
-					responsive={responsive}
-					autoPlay={true}
-					swipeable={true}
-					draggable={true}
-					showDots={true}
-					infinite={true}
-					partialVisible={false}
-					dotListClass='custom-dot-list-style'>
+				<Carousel className='md:pt-14 sm:mt-11 mt-9' responsive={responsive} autoPlay={true} autoPlaySpeed={1500} infinite>
 					<div className={`${partners.partners__list} pt-2 md:pr-14 sm:pr-10 sm:pl-10 pl-8 pr-8 pb-2 md:pl-14`}>
 						<Image src={partners1} className='w-[172px] h-[126px]' />
 					</div>

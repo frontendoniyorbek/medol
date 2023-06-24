@@ -101,14 +101,14 @@ body {
 
 .btn-news {
 	display: inline-block;
-	padding: 15px 80px;
+	padding: 15px 60px;
 	color: #fff;
 	text-align: center;
 	font-size: 20px;
 	font-family: Roboto;
 	letter-spacing: 0.8px;
 	margin-bottom: -50px;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 .btn__footer {
@@ -145,6 +145,43 @@ a:active {
 .react-multi-carousel-dot.react-multi-carousel-dot--active button {
 	background: #00c9c9 !important;
 	border-color: #00c9c9;
+}
+
+.next {
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	background: linear-gradient(180deg, #0d4c93 0%, #00c9c9 100%);
+	position: absolute;
+	top: 40%;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	i {
+		color: #fff;
+	}
+}
+
+.prev {
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	background: linear-gradient(180deg, #0d4c93 0%, #00c9c9 100%);
+	position: absolute;
+	top: 40%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 10;
+	i {
+		color: #fff;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -188,6 +225,20 @@ a:active {
 		width: 18px !important;
 		height: 18px !important;
 	}
+
+	.next {
+		height: 25px;
+		width: 25px;
+		border-radius: 25px;
+		top: 60%;
+	}
+
+	.prev {
+		height: 25px;
+		width: 25px;
+		border-radius: 25px;
+		top: 60%;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -224,5 +275,17 @@ a:active {
 	.custom-dot-list-style button {
 		width: 16px !important;
 		height: 16px !important;
+	}
+
+	.next {
+		height: 20px;
+		width: 20px;
+		border-radius: 20px;
+	}
+
+	.prev {
+		height: 20px;
+		width: 20px;
+		border-radius: 20px;
 	}
 }
