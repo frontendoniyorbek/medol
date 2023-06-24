@@ -58,6 +58,18 @@
 	transform-origin: 0%;
 }
 
+.footer__link {
+	border-radius: 35px;
+	opacity: 0.8999999761581421;
+	background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+	padding: 8px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: Roboto;
+	letter-spacing: 0.8px;
+}
+
 .services__container {
 	max-width: 1440px;
 	width: 100%;
@@ -213,7 +225,6 @@
 	border-radius: 30px;
 	border: 1px solid #ececec;
 	background: #fff;
-	width: 275px;
 }
 
 .aboutCompany__bg {
@@ -267,52 +278,6 @@
 	.services__image {
 		width: 450px;
 		object-fit: cover;
-	}
-}
-
-@media screen and (max-width: 1300px) {
-	.footer__container {
-		flex-direction: column;
-	}
-
-	.footer__info {
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		margin-bottom: 40px;
-	}
-
-	.footer__location {
-		margin-right: 10px;
-	}
-
-	.footer__title {
-		margin-right: 10px;
-	}
-
-	.footer__email {
-		justify-content: flex-end;
-		margin-bottom: 0;
-	}
-
-	.footer__locationTop {
-		margin-bottom: 0;
-	}
-
-	.footer__emalBootom {
-		margin-right: 10px;
-	}
-
-	.footer__logo {
-		justify-content: space-between;
-	}
-
-	.footer__text {
-		width: 100%;
-	}
-
-	.footer__right {
-		justify-content: space-between;
 	}
 }
 
@@ -480,11 +445,24 @@
 	.services__info {
 		padding: 0 48px 24px;
 	}
-}
-
-@media screen and (max-width: 935px) {
 	.card__right {
 		width: 51%;
+	}
+
+	.footer__container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer__top {
+		margin-right: 0;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer__icon {
+		margin-bottom: 20px;
 	}
 }
 
@@ -605,10 +583,6 @@
 }
 
 @media screen and (max-width: 640px) {
-	.footer__logoText {
-		flex-direction: column;
-	}
-
 	.products__li {
 		width: 98%;
 		height: inherit;
@@ -617,6 +591,15 @@
 
 	.products__li:nth-child(2n) {
 		margin-right: 0;
+	}
+
+	.footer__text {
+		margin-left: 12px;
+	}
+
+	.footer__link {
+		padding: 5px 10px;
+		font-size: 12px;
 	}
 }
 
@@ -676,10 +659,6 @@
 	.image {
 		width: 320px;
 		height: 280px;
-	}
-
-	.footer__right {
-		flex-direction: column;
 	}
 }
 

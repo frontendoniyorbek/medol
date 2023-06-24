@@ -73,7 +73,8 @@ const News = () => {
 				loop
 				autoplay={2000}
 				arrowRight={next}
-				arrowLeft={prev}>
+				arrowLeft={prev}
+				className={`${news.carousel}`}>
 				<Carousel.Item>
 					<li className={`${news.news__li} md:mt-[136px] sm:mt-24 mt-16 md:pl-4 pl-2 md:pr-4 pr-2 md:mb-[45px] sm:mb-9 mb-6`}>
 						<Image src={masterKlass} className={`${news.news__image}`} />
