@@ -62,7 +62,7 @@ const Hero = () => {
 
 			{/* lenguach */}
 			<Accordion defaultIndex={[0]} allowMultiple>
-				<AccordionItem>
+				<AccordionItem className='relative'>
 					<Box>
 						<AccordionButton className='pt-2 pb-2 pr-4 pl-4  cursor-pointer rounded-[25px] bg-white'>
 							<Box as='span' flex='1' textAlign='center' className='flex justify-center items-center'>
@@ -72,7 +72,7 @@ const Hero = () => {
 							<AccordionIcon />
 						</AccordionButton>
 					</Box>
-					<AccordionPanel className='fixed w-40 sm:flex-col flex-wrap flex  pt-2  pb-2  cursor-pointer'>
+					<AccordionPanel className='absolute top-[80%] left-[10%]  sm:flex-col flex-wrap flex  pt-2  pb-2  cursor-pointer'>
 						<div className='flex items-center mb-2'>
 							<Image className='mr-4' src={russ} alt='russ' width={25} height={25} />
 							<p className='text-[#0D4C93] text-xs sm:flex hidden mr-3 text-center leading-[1.2]'>Русский</p>

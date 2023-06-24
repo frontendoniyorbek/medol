@@ -8,10 +8,12 @@ import Link from 'next/link';
 
 const News = () => {
 	return (
-		<div className={`md:pb-[104px] sm:pb-20 pb-14 ${news.news__container}`}>
-			<h2 className='text-[#0D4C93] font-medium md:text-[40px] sm:text-3xl text-3xl text-center'>НОВОСТИ</h2>
+		<div className={`md:pb-[104px] sm:pb-16 pb-10 ${news.news__container}`}>
+			<h2 className='text-[#0D4C93] text-center font-medium lg:text-[40px] md:text-3xl sm:text-2xl text-2xl md:mb-14 sm:mb-12 mb-9 '>
+				НОВОСТИ
+			</h2>
 			<Carousel
-				className='md:pt-14 sm:pt-12 pt-9 flex justify-between items-center'
+				className='flex justify-between items-center'
 				responsive={categoryCarousel}
 				autoPlay={true}
 				autoPlaySpeed={1500}
@@ -62,17 +64,17 @@ const News = () => {
 			<div
 				className={`flex items-center cursor-pointer flex-wrap justify-between md:pl-28 sm:pl-20 md:pr-28 sm:mr-20 pl-11 pr-11 ${news.news__info}`}>
 				<div className={`flex items-center mr-3 ${news.news__inner}`}>
-					<Link className='text-[#0D4C93] mr-[6px]' href={'#'}>
+					<Link className='text-[#0D4C93] md:text-2xl sm:text-lg text-sm mr-[6px]' href={'#'}>
 						Перейти в каталог нашей продукции
 					</Link>
-					<AiOutlineRightCircle className='text-[#0D4C93] w-[30px] h-[30px]' />
+					<AiOutlineRightCircle className='text-[#0D4C93] md:w-[25px] md:h-[25px] sm:w-[20px] sm:h-[20px] w-[15px] h-[15px]' />
 				</div>
 
 				<div className='flex items-center'>
-					<Link className='text-[#0D4C93] mr-[6px]' href={'#'}>
+					<Link className='text-[#0D4C93] md:text-2xl sm:text-lg text-sm mr-[6px]' href={'#'}>
 						Перейти в каталог нашей продукции
 					</Link>
-					<AiOutlineRightCircle className='text-[#0D4C93] w-[30px] h-[30px]' />
+					<AiOutlineRightCircle className='text-[#0D4C93] md:w-[25px] md:h-[25px] sm:w-[20px] sm:h-[20px] w-[15px] h-[15px]' />
 				</div>
 			</div>
 		</div>

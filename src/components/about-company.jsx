@@ -7,8 +7,8 @@ import Link from 'next/link';
 const AboutCompany = () => {
 	return (
 		<div className={`${aboutCompany.aboutCompany} sm:pt-11 sm:pb-16 pt-10 pb-12 md:pt-[68px] md:pb-[108px]`}>
-			<div className={`${aboutCompany.container}`}>
-				<h2 className='text-[#0D4C93] font-medium md:text-[40px] sm:text-4xl text-3xl text-center'>О КОМПАНИИ</h2>
+			<div className={`${aboutCompany.aboutCompany__container}`}>
+				<h2 className='text-[#0D4C93] font-medium md:text-[40px] sm:text-3xl text-2xl text-center'>О КОМПАНИИ</h2>
 				<div className={`flex items-center md:mt-10 sm:mt-7 mt-5}`}>
 					{/* ${aboutCompany.aboutCompany__wrapper */}
 					<div className={` ${aboutCompany.card}`}>
@@ -24,7 +24,7 @@ const AboutCompany = () => {
 
 						<div className={`${aboutCompany.card__right}`}>
 							<div className={`${aboutCompany.card__rightInner}`}>
-								<p className='text-xs  xl:text-base xl:mb-4 mb-6 font-light tracking-[1.2px] '>
+								<p className='text-xs  xl:text-base xl:mb-4 md:mb-6 sm:mb-4 mb-2 font-light tracking-[1.2px] '>
 									Группа компаний MEDOL создавалась высококвалифицированными специалистами в сфере медицины, инженерии и
 									экономики,
 									<span className='lg:flex hidden'>

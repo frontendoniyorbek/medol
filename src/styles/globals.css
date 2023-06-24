@@ -155,9 +155,9 @@ a:active {
 
 @media screen and (max-width: 768px) {
 	.btn {
-		border-radius: 28px;
-		font-size: 18px;
-		line-height: 26px;
+		border-radius: 24px;
+		font-size: 16px;
+		line-height: 24px;
 		padding: 15px 48px 15px 48px;
 	}
 
@@ -178,18 +178,25 @@ a:active {
 	}
 
 	.btn__company {
-		padding: 12px 48px;
-		font-size: 16px;
+		padding: 10px 36px;
+		font-size: 14px;
+		font-weight: 400;
 		letter-spacing: 0.6px;
+	}
+
+	.custom-dot-list-style button {
+		width: 18px !important;
+		height: 18px !important;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.btn {
-		border-radius: 24px;
+		border-radius: 22px;
 		font-size: 12px;
-		line-height: 22px;
+		line-height: 18px;
 		padding: 12px 36px 12px 36px;
+		font-weight: 400;
 	}
 
 	.btn__products {
@@ -209,8 +216,13 @@ a:active {
 	}
 
 	.btn__company {
-		padding: 10px 36px;
-		font-size: 14px;
+		padding: 8px 24px;
+		font-size: 12px;
 		letter-spacing: 0.4px;
+	}
+
+	.custom-dot-list-style button {
+		width: 16px !important;
+		height: 16px !important;
 	}
 }

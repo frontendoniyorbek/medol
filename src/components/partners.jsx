@@ -16,7 +16,9 @@ const Partners = () => {
 	return (
 		<div className='md:pb-32 sm:pb-24 pb-16'>
 			<div className={`${partners.container}`}>
-				<h2 className='text-center font-medium text-[40px] text-[#0D4C93] mb-[68px]'>ПАРТНЕРЫ</h2>
+				<h2 className='text-[#0D4C93] text-center font-medium lg:text-[40px] md:text-3xl sm:text-2xl text-2xl lg:mb-[62px] md:mb-[68px] sm:mb-8 mb-6 leading-[1.2]'>
+					ПАРТНЕРЫ
+				</h2>
 
 				<Carousel
 					className='md:pt-14 sm:mt-11 mt-9'

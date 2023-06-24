@@ -39,6 +39,15 @@
 	padding-right: 20px;
 }
 
+.aboutCompany__container {
+	max-width: 1440px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .progress__bar {
 	position: fixed;
 	top: 0;
@@ -250,12 +259,6 @@
 	}
 }
 
-@media screen and (max-width: 1389px) {
-	.products__li {
-		padding: 17px 30px 32px;
-	}
-}
-
 @media screen and (max-width: 1356px) {
 	.footer__links {
 		flex-direction: column;
@@ -315,10 +318,13 @@
 
 @media screen and (max-width: 1169px) {
 	.products__li {
-		width: 45%;
+		width: 48%;
 		height: inherit;
-		padding: 17px 30px 32px;
 		margin-right: 20px;
+	}
+
+	.products__li:nth-child(2n) {
+		margin-right: 0;
 	}
 
 	.services__li {
@@ -337,14 +343,6 @@
 }
 
 @media screen and (max-width: 1165px) {
-	.products__ul {
-		justify-content: center;
-	}
-
-	.products__li {
-		padding: 17px 40px 32px;
-	}
-
 	.products__span {
 		display: none;
 	}
@@ -435,12 +433,6 @@
 
 	.header__info {
 		max-width: 98%;
-	}
-}
-
-@media screen and (max-width: 1199px) {
-	.products__li {
-		padding: 17px 30px 32px;
 	}
 }
 
@@ -608,6 +600,16 @@
 	.footer__logoText {
 		flex-direction: column;
 	}
+
+	.products__li {
+		width: 98%;
+		height: inherit;
+		margin-right: 0;
+	}
+
+	.products__li:nth-child(2n) {
+		margin-right: 0;
+	}
 }
 
 @media screen and (max-width: 610px) {
@@ -621,15 +623,18 @@
 	.services__ul {
 		justify-content: center;
 	}
-}
 
-@media screen and (max-width: 550px) {
 	.card {
-		height: 100px !important;
+		height: 90px !important;
+		width: 90%;
 	}
 	.card__first {
 		background: none !important;
 		border: none !important;
+	}
+
+	.card__second {
+		background: #fff;
 	}
 
 	.card__rightInner {
@@ -637,9 +642,13 @@
 	}
 }
 @media screen and (max-width: 460px) {
-	/* .card {
-		height: 60px !important;
-	} */
+	.card {
+		height: 100px !important;
+	}
+
+	.card__left {
+		width: 55% !important;
+	}
 
 	.card__second {
 		background: none !important;
@@ -647,14 +656,9 @@
 	}
 
 	.card__third {
-		background: none !important;
-		border: none !important;
+		background-color: #fff !important;
+		box-shadow: -50px -50px 0 #fff;
 	}
-
-	.card__logo {
-		display: none;
-	}
-
 	.card__rightInner {
 		width: 98%;
 	}
@@ -668,5 +672,15 @@
 
 	.footer__right {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.card__left {
+		display: none !important;
+	}
+
+	.card__right {
+		width: 100% !important;
 	}
 }

@@ -18,8 +18,8 @@ const Services = () => {
 							<Image className={`${services.services__image} md:mb-9 sm:mb-6 mb-5`} src={servisesServ} />
 							<div
 								className={`md:pl-10 md:pr-10 md:pb-[72px] sm:pl-8 sm:pr-8 sm:pb-14 pl-5 pr-5 pb-10 ${services.services__info}`}>
-								<h3 className='text-[#0D4C93] text-center text-xl md:mb-4 mb-3'>СЕРВИС ОБОРУДОВАНИЯ</h3>
-								<p className='leading-6 md:text-base sm:text-sm text-sm'>
+								<h3 className='text-[#0D4C93] text-center md:text-xl sm:text-lg text-base md:mb-4 mb-3'>СЕРВИС ОБОРУДОВАНИЯ</h3>
+								<p className='md:leading-6 font-light leading-4 md:text-base sm:text-sm text-sm'>
 									Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт
 									и сертификаты фирм производителей......
 								</p>
@@ -32,8 +32,8 @@ const Services = () => {
 							<Image className={`${services.services__image} md:mb-9 sm:mb-6 mb-5`} src={registration} />
 							<div
 								className={`md:pl-10 md:pr-10 md:pb-[72px] sm:pl-8 sm:pr-8 sm:pb-14 pl-5 pr-5 pb-10  ${services.services__info}`}>
-								<h3 className='text-[#0D4C93] text-center text-xl md:mb-4 mb-3'>РЕГИСТРАЦИИ СТРАЦИИ</h3>
-								<p className='leading-6 text-base'>
+								<h3 className='text-[#0D4C93] text-center md:text-xl sm:text-lg text-base md:mb-4 mb-3'>РЕГИСТРАЦИИ СТРАЦИИ</h3>
+								<p className='md:leading-6 font-light leading-4 md:text-base sm:text-sm text-sm'>
 									Обеспечение предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется
 									опыт и сертификаты фирм производителей......
 								</p>
@@ -46,8 +46,8 @@ const Services = () => {
 							<Image className={`${services.services__image} md:mb-9 sm:mb-6 mb-5`} src={uslugi} />
 							<div
 								className={`md:pl-10 md:pr-10 md:pb-[72px] sm:pl-8 sm:pr-8 sm:pb-14 pl-5 pr-5 pb-10  ${services.services__info}`}>
-								<h3 className='text-[#0D4C93] text-center text-xl md:mb-4 mb-3'>УСЛУГИ ЛОГИСТИКИ</h3>
-								<p className='leading-6 text-base'>
+								<h3 className='text-[#0D4C93] text-center md:text-xl sm:text-lg text-base md:mb-4 mb-3'>УСЛУГИ ЛОГИСТИКИ</h3>
+								<p className='md:leading-6 font-light leading-4 md:text-base sm:text-sm text-sm'>
 									Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт
 									и сертификаты фирм производителей......
 								</p>
