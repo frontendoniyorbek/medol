@@ -122,6 +122,54 @@ const News = () => {
 						<button className={`btn btn-news text-center`}>Подробнее</button>
 					</li>
 				</Carousel.Item>
+
+				<Carousel.Item>
+					<li className={`${news.news__li} md:mt-[136px] sm:mt-24 mt-16 md:pl-4 pl-2 md:pr-4 pr-2 md:mb-[45px] sm:mb-9 mb-6`}>
+						<Image src={masterKlass} className={`${news.news__image}`} />
+						<h3 className='text-center text-[#0D4C93] md:mb-[18px] sm:mb-4 mb-3 mt-1 font-medium text-xl'>
+							Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича
+						</h3>
+						<h4 className='text-center text-[#0D4C93] font-medium text-lg mb-3'>26.07.2021</h4>
+						<p className='text-sm text-center md:mb-[27px] sm:mb-6 mb-5'>
+							С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии)
+							при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен
+							мастер-класс в исполнении...
+						</p>
+						<button className={`btn btn-news text-center`}>Подробнее</button>
+					</li>
+				</Carousel.Item>
+
+				<Carousel.Item>
+					<li className={`${news.news__li} md:mt-[136px] sm:mt-24 mt-16 md:pl-4 pl-2 md:pr-4 pr-2 md:mb-[45px] sm:mb-9 mb-6`}>
+						<Image src={masterKlass} className={`${news.news__image}`} />
+						<h3 className='text-center text-[#0D4C93] md:mb-[18px] sm:mb-4 mb-3 mt-1 font-medium text-xl'>
+							Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича
+						</h3>
+						<h4 className='text-center text-[#0D4C93] font-medium text-lg mb-3'>26.07.2021</h4>
+						<p className='text-sm text-center md:mb-[27px] sm:mb-6 mb-5'>
+							С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии)
+							при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен
+							мастер-класс в исполнении...
+						</p>
+						<button className={`btn btn-news text-center`}>Подробнее</button>
+					</li>
+				</Carousel.Item>
+
+				<Carousel.Item>
+					<li className={`${news.news__li} md:mt-[136px] sm:mt-24 mt-16 md:pl-4 pl-2 md:pr-4 pr-2 md:mb-[45px] sm:mb-9 mb-6`}>
+						<Image src={masterKlass} className={`${news.news__image}`} />
+						<h3 className='text-center text-[#0D4C93] md:mb-[18px] sm:mb-4 mb-3 mt-1 font-medium text-xl'>
+							Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича
+						</h3>
+						<h4 className='text-center text-[#0D4C93] font-medium text-lg mb-3'>26.07.2021</h4>
+						<p className='text-sm text-center md:mb-[27px] sm:mb-6 mb-5'>
+							С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии)
+							при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен
+							мастер-класс в исполнении...
+						</p>
+						<button className={`btn btn-news text-center`}>Подробнее</button>
+					</li>
+				</Carousel.Item>
 			</Carousel>
 			<div
 				className={`flex items-center cursor-pointer flex-wrap justify-between md:pl-28 sm:pl-20 md:pr-28 sm:mr-20 pl-11 pr-11 ${news.news__info}`}>

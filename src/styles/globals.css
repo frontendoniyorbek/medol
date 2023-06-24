@@ -49,79 +49,51 @@ body {
 	background-color: #fff;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
 	line-height: 1.67;
 	color: #000;
 	overflow-x: hidden;
 }
 
+.containers {
+	max-width: 1440px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .btn {
 	background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
 	opacity: 0.9;
-	border-radius: 35px;
+	border-radius: 30px;
 	cursor: pointer;
 	color: #fff;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
-	padding: 21px 74px 21px 71px;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 15px 45px;
 	transition: all 0.3 ease;
+}
+
+.btn__company {
+	padding: 10px 15px;
+}
+
+.btn-news {
+	margin-bottom: -20%;
+	margin-left: 20%;
 }
 
 .btn:hover {
 	background: linear-gradient(90deg, #00c9c9 0%, #0d4c93 100%);
-	transition: all 0.3 ease;
 }
 
 .btn:active {
 	opacity: 0.6;
-}
-
-.btn__products {
-	padding: 24px 58px;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 23px;
-}
-
-.btn__products--active {
-	background: #00c9c9;
-}
-
-.btn-services {
-	padding: 15px 84px 12px 82px;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 23px;
-}
-
-.btn-news {
-	display: inline-block;
-	padding: 15px 60px;
-	color: #fff;
-	text-align: center;
-	font-size: 20px;
-	font-family: Roboto;
-	letter-spacing: 0.8px;
-	margin-bottom: -50px;
-	margin-left: 40px;
-}
-
-.btn__footer {
-	padding: 14px 30px;
-}
-
-.btn__company {
-	padding: 12px 58px;
-	color: #fff;
-	text-align: center;
-	font-size: 20px;
-	font-family: Roboto;
-	letter-spacing: 0.8px;
 }
 
 a:hover {
@@ -154,7 +126,7 @@ a:active {
 	border-radius: 30px;
 	background: linear-gradient(180deg, #0d4c93 0%, #00c9c9 100%);
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	right: 0;
 	display: flex;
 	justify-content: center;
@@ -172,7 +144,7 @@ a:active {
 	border-radius: 30px;
 	background: linear-gradient(180deg, #0d4c93 0%, #00c9c9 100%);
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 0;
 	display: flex;
 	justify-content: center;
@@ -180,45 +152,28 @@ a:active {
 	cursor: pointer;
 	z-index: 10;
 	i {
+		width: 70%;
+		height: 70%;
 		color: #fff;
 	}
 }
 
 @media screen and (max-width: 1200px) {
-	.btn__products {
-		padding: 18px 32px;
+	.btn-news {
+		margin-left: 10px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.btn {
 		border-radius: 24px;
-		font-size: 16px;
-		line-height: 24px;
-		padding: 15px 48px 15px 48px;
-	}
-
-	.btn__products {
-		padding: 15px 48px;
-	}
-
-	.btn-services {
-		padding: 12px 48px 12px 48px;
-	}
-
-	.btn-news {
-		padding: 12px 48px;
-	}
-
-	.btn__footer {
-		padding: 12px 26px;
+		font-size: 18px;
+		line-height: 20px;
+		padding: 10px 30px;
 	}
 
 	.btn__company {
-		padding: 10px 36px;
-		font-size: 14px;
-		font-weight: 400;
-		letter-spacing: 0.6px;
+		padding: 8px 12px;
 	}
 
 	.custom-dot-list-style button {
@@ -230,46 +185,29 @@ a:active {
 		height: 25px;
 		width: 25px;
 		border-radius: 25px;
-		top: 60%;
 	}
 
 	.prev {
 		height: 25px;
 		width: 25px;
 		border-radius: 25px;
-		top: 60%;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.btn {
 		border-radius: 22px;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 18px;
-		padding: 12px 36px 12px 36px;
-		font-weight: 400;
-	}
-
-	.btn__products {
-		padding: 12px 36px;
-	}
-
-	.btn-services {
-		padding: 12px 36px 12px 36px;
-	}
-
-	.btn-news {
-		padding: 12px 36px;
-	}
-
-	.btn__footer {
-		padding: 8px 18px;
+		padding: 8px 24px;
 	}
 
 	.btn__company {
-		padding: 8px 24px;
-		font-size: 12px;
-		letter-spacing: 0.4px;
+		padding: 6px 14px;
+	}
+
+	.btn__footer {
+		padding: 6px 12px;
 	}
 
 	.custom-dot-list-style button {

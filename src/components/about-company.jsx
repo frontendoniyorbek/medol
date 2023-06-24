@@ -7,10 +7,9 @@ import Link from 'next/link';
 const AboutCompany = () => {
 	return (
 		<div className={`${aboutCompany.aboutCompany} sm:pt-11 sm:pb-16 pt-10 pb-12 md:pt-[68px] md:pb-[108px]`}>
-			<div className={`${aboutCompany.aboutCompany__container}`}>
+			<div>
 				<h2 className='text-[#0D4C93] font-medium md:text-[40px] sm:text-3xl text-2xl text-center'>О КОМПАНИИ</h2>
 				<div className={`flex items-center md:mt-10 sm:mt-7 mt-5}`}>
-					{/* ${aboutCompany.aboutCompany__wrapper */}
 					<div className={` ${aboutCompany.card}`}>
 						<div className={`${aboutCompany.card__left}`}>
 							<div className={`${aboutCompany.card__first}`}>

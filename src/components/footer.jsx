@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<div className={`${footer.footer} md:pt-12 md:pb-7 pt-8 pb-5`}>
-			<div className={`${footer.container} flex justify-between ${footer.footer__container}`}>
+			<div className={`containers flex justify-between ${footer.footer__container}`}>
 				{/* 1 */}
 				<div className={`${footer.footer__top} flex flex-col mr-3`}>
 					{/* 1 */}
@@ -140,8 +140,8 @@ const Footer = () => {
 			</div>
 
 			{/* 4 */}
-			<div className={`${footer.container}`}>
-				<div className={`${footer.container} ${footer.footer__bottom} flex justify-between items-center md:mt-11 mt-7 `}>
+			<div className={`containers`}>
+				<div className={` ${footer.footer__bottom} flex justify-between items-center md:mt-11 mt-7 `}>
 					<span className='text-[#353535] md:text-lg sm:text-base text-sm'>© 2021 ООО «Medical Online Services»</span>
 					<div className='text-[#353535] md:text-lg sm:text-base text-sm'>
 						Донийорбек:

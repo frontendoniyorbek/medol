@@ -5,7 +5,6 @@ import logo from '../images/logo.svg';
 import search from '../images/search.svg';
 import facebook from '../images/facebook.svg';
 import russ from '../images/russ.svg';
-import acardion from '../images/acardion.svg';
 import styleHero from '../styles/styles.module.css';
 import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Box } from '@chakra-ui/react';
 import uzb from '../images/UZ.svg';
@@ -61,7 +60,7 @@ const Hero = () => {
 			</div>
 
 			{/* lenguach */}
-			<Accordion defaultIndex={[0]} allowMultiple>
+			<Accordion allowToggle>
 				<AccordionItem className='relative'>
 					<Box>
 						<AccordionButton className='pt-2 pb-2 pr-4 pl-4  cursor-pointer rounded-[25px] bg-white'>

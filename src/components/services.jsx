@@ -11,7 +11,7 @@ const Services = () => {
 				УСЛУГИ
 			</h2>
 			<div className={`${services.services} md:pt-[78px] md:pb-[112px] sm:pt-12 sm:pb-16 pt-10 pb-12`}>
-				<div className={`${services.services__container}`}>
+				<div className={`containers`}>
 					<ul className={`list-none first-letter flex items-center justify-between flex-wrap ${services.services__ul}`}>
 						<li
 							className={`w-[388px] bg-white rounded-[50px] flex items-center justify-center flex-col ${services.services__li}`}>
@@ -24,7 +24,7 @@ const Services = () => {
 									и сертификаты фирм производителей......
 								</p>
 							</div>
-							<button className={`btn btn-services text-center mb-[-20px]`}>Подробнее</button>
+							<button className={`btn text-center mb-[-20px]`}>Подробнее</button>
 						</li>
 
 						<li
@@ -38,7 +38,7 @@ const Services = () => {
 									опыт и сертификаты фирм производителей......
 								</p>
 							</div>
-							<button className={`btn btn-services text-center mb-[-20px]`}>Подробнее</button>
+							<button className={`btn text-center mb-[-20px]`}>Подробнее</button>
 						</li>
 
 						<li
@@ -52,7 +52,7 @@ const Services = () => {
 									и сертификаты фирм производителей......
 								</p>
 							</div>
-							<button className={`btn btn-services text-center mb-[-20px]`}>Подробнее</button>
+							<button className={`btn text-center mb-[-20px]`}>Подробнее</button>
 						</li>
 					</ul>
 				</div>
